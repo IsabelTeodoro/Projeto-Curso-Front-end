@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+
+    <!--internal css-->
+
+    <style>
+      p {
+        color: gold;
+        font-size: 40px;
+      }
+    </style>
+    <!-- External css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/list.css" />
+  </head>
+  <body>
+    <!--inline css-->
+    <h1 style="color: red">Mudar cor no inline</h1>
+    <h1 style="color: blue">Outro titulo</h1>
+
+    <!--multiplas regras-->
+
+    <h1 style="color: purple; font-size: 50px; border-bottom: 1px solid red">
+      Mudar cor e tamanho da fonte
+    </h1>
+
+    <!--internal css-->
+
+    <p>Estilizado pelo internal</p>
+    <p>outro paragrafo</p>
+    <p>terceiro teste</p>
+
+
+<!--position sticky-->
+
+<div class="sticky">
+  <span>eu sou sticky</span>
+</div>
+
+
+    <!--CSS external-->
+    <h3>Meu titulo verde</h3>
+
+    <!--ordem do css-->
+    <p style="color: red">Ordem do css</p>
+
+    <!--multiplos css-->
+
+    <ul>
+      <li>Banana</li>
+      <li>Maça</li>
+      <li>Abacate</li>
+    </ul>
+
+    <!--CLASSES E IDS-->
+
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!--ID-->
+    <h1 id="exclusive-title">TITULO COM ID</h1>
+
+    <!--Ordem de seletores-->
+
+    <h2 id="algum-title" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!--Cores por nome-->
+
+    <p class="color-name">Nome de cores</p>
+
+    <!--cores Hexadecimal-->
+
+    <p class="hex">Cor em HEX</p>
+
+    <!--mais sobre hex-->
+    <!--em caso de valores repetidos , se resume em 3 , ex #fffff = #fff-->
+
+    <p class="simple-hex">hex simplificado</p>
+    <p class="simple-hex2">hex simplificado 2</p>
+
+    <!--RGB-->
+
+    <p class="rgb">Titulo em RGB</p>
+    <p class="mixed-rgb">Titulo estilizado com rgb</p>
+
+    <!--RGBA-->
+
+    <p class="RGBA">este foi estilizadfo com RGBA</p>
+
+    <!--HSL hue, saturationm, lightness-->
+
+    <p class="HSL">Este foi com HSL</p>
+    <p class="HSL2">Este foi com HSL2</p>
+
+    <!--background-color-->
+
+    <p class="bg">mude meu background</p>
+    <p class="bg2">Outra variaçao</p>
+
+    <!--background-opacity-->
+    <div class="bg-opacity">
+      <p>Background-opacity</p>
+    </div>
+
+    <!--RGBa para background com opacidade-->
+    <div class="rgba-opacity">
+      <h1>este titulo precisa estar visivel</h1>
+    </div>
+
+    <!--background imagens-->
+
+    <h1 class="bg-img">Este titulo em uma imagem!</h1>
+
+    <!--centralizando imagens de background-->
+
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <!--conceito de box model , height e width -->
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!--padding - espaçamento interno-->
+
+    <div class="whithout-padding">Este nao tem padding</div>
+    <div class="padding">Este tem padding</div>
+
+    <!--padding individual-->
+
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!--shorthand-padding-->
+
+    <p class="shorthand-padding">Algum texto</p>
+    <p class="shorthand-padding-2">Algum texto 2</p>
+
+    <!--padding com width-->
+
+    <div class="without-border-box">
+      <p>Algum conteudo</p>
+    </div>
+    <div class="border-box">
+      <p>Algum conteudo 2</p>
+    </div>
+
+    <!--Bordas - decorativo na mairoria das vezes-->
+
+    <div class="border">Borda</div>
+    <div class="border2">Borda 2</div>
+
+    <!--Bordas individuais -->
+    <p class="border-left">Borda na esquerda</p>
+    <p class="border-bottom">Borda inferior</p>
+
+    <!--Borda arredondada-->
+    <div class="round-p">Eu sou arredondado</div>
+    <div class="round-p-2">Eu sou arredondado</div>
+
+    <!--margem-->
+
+    <div class="margin">eu tenho margem</div>
+    <div class="margin-top">margem no topo</div>
+    <div class="margin-shorthand">margem com shorthand</div>
+
+    <!--Box model juntos-->
+    <div class="box-model">
+      <p>Tenho todas as propriedades do box model</p>
+    </div>
+
+    <!--Alinhamento de texto-->
+
+    <p class="text-align">texto a direita</p>
+    <div class="conteiner-center">
+      <h2>Estamos centralizados</h2>
+      <p>algum texto</p>
+    </div>
+
+    <!-- text decoration-->
+    <p class="underline">Eu tenho underline</p>
+    <p class="line-trough">eu tenho um risco</p>
+    <a href="#" class="remove-underline">Sem underline</a>
+
+    <!--text formation-->
+    <p class="upper">este texto é em caixa alta</p>
+    <p class="lower">ESTE É EM LOWER</p>
+
+    <!--Fontes e suas categorias-->
+
+    <p class="serif">Serif fonte</p>
+    <p class="sans-serif">sans serif fonte</p>
+    <p class="monospace">monospace fonte</p>
+    <p class="cursive">cursive fonte</p>
+    <p class="fantasy">fantasy fonte</p>
+
+    <!--fontes style-->
+
+    <p class="italic">Italico</p>
+    <p class="obliq">eu sou oblique</p>
+
+    <!--font weight propriedade4 da fonte-->
+
+    <p class="thin">sou mais fino</p>
+    <p class="bold">estou em bolde mais grosso</p>
+    <p class="bolder">a maior fonte</p>
+
+
+    <!--font size - tamanho de fonte-->
+<h4 class="samll">titulo pequeno </h4>
+<h4 class="big">titulo grande</h4>
+
+<!--Display-->
+<div class="inline-box">a</div>
+<div class="inline-box">b</div>
+<div class="inline-box">c</div>
+<span class="block">teste</span>
+<span class="block">teste 2</span>
+
+<!--ESCONDENDO ELEMENTOS-->
+
+<p class="invisible">encontre se puder</p>
+
+<!--Sobre as posiçoes dos elementos-->
+
+<!--Static-->
+<div class="static">
+  <span>Eu sou um Static</span>
+</div>
+
+<!--Relative-->
+
+<div class="relative">
+  <span> eu sou relativo</span>
+</div>
+<p>paragrafo</p>
+
+<!-- position absolut-->
+
+<div class="absolut">
+  <span>eu sou absoluto</span>
+</div>
+<p>paragrafo dois</p>
+
+<!--relativo com absoluto-->
+
+<div class="relative-container">
+  <div class="absolute-1"></div>
+  <div class="absolute-2"></div>
+</div>
+
+<!--position fixed-->
+<div class="fixed">
+  <span>Estou fixo</span>
+</div>
+
+<!--position sticky-->
+
+<!--Z index elemento de maior valor prevalece-->
+<div class="relative-container">
+  <div class="absolute3"></div>
+  <div class="absolute4"></div>
+  <div class="absolute5"></div>
+</div>
+</body>
+</html>
